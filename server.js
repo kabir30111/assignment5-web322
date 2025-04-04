@@ -72,7 +72,7 @@ app.get("/solutions/addProject", (req, res) => {
     .then((sectors) => {
       res.render("addProject", {
         sectors,
-        page: "/solutions/addProject", // ✅ this is what avoids undefined page errors
+        page: "/solutions/addProject", //  this is what avoids undefined page errors
       });
     })
     .catch((err) => {

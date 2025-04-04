@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "tw:build": "npx tailwindcss -i ./src/input.css -o ./public/css/main.css --watch",
-    "prepare-submission": "npm run tw:build && zip -r assignment5.zip * .[^.]* -x \"node_modules/*\""
+    "prepare-submission": "zip -r assignment5.zip * .[^.]* -x \"node_modules/*\""
   },
   "author": "Kabir Hemant Merchant",
   "license": "ISC",
